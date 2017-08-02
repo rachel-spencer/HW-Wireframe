@@ -1,45 +1,94 @@
 html, body {
 	height:100%;
+	background-color: #777
+}
+
+header {
+	width: 960px;
+	text-align: center;
 }
 
 header h1 {
-	background-color: teal
-	font-size 28px
-	color: white
+	font-family: arial;
+	font-size: 18px;
+	text-align: center;
 	padding: 12px 24px;
 	display: inline-block;
+	color: #777;
 }
 
-header nav {
-	display: inline-block;
+nav {
+	width: 960px;
+	margin: 0 auto 0 auto;
+  	background: #ebebeb;
+  	font-family: arial;
+	font-size: 18px;
+	color: #777;
+  	text-align: center;
 
 }
 
 .content-wrap {
-	min-height: 100%;
 	width: 960px;
 	margin: 0 auto 0 auto;
-	background: gray;
-	border: 2px solid red;
-	border-top: none;
-	border-bottom: none;
+	background: #ebebeb;
 }
 
 main {
 	margin-bottom: 90px;
 	min-height: 100%;
+}
+
+section {
+	display: inline-block;
+	width: 495px;
+	height: 300px;
+	margin: 0 auto 0 auto;
+	background: #ebebeb;
+  	font-family: arial;
+	font-size: 18px;
+	color: #777;
+  	text-align: center;
+
+}
+
+#right {
+	float: right;
+	display:block;
+	width: 60%;
+}
+
+
+aside {
+	width: 455px;
+	height: 300px;
+	margin: 0 auto 0 auto;
+  	background: #ebebeb;
+  	font-family: arial;
+	font-size: 18px;
+	color: #777;
+  	text-align: center;
+
+}
+
+article {
+
+}
+
+.clear {
+
+}
+
+p {
 
 }
 
 footer {
-	padding: 20px;
-	position: fixed;
-  	width: 100%;
-  	bottom: 0;
-  	left: 0;
-  	height: 30px;
-  	bottom-margin: -30px;
-  	background: #222;
-  	color: white;
+  	width: 960px;
+	margin: 0 auto 0 auto;
+  	background: #ebebeb;
+  	font-family: arial;
+	font-size: 18px;
+	color: #777;
   	text-align: center;
 }
