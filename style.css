@@ -1,5 +1,11 @@
-html, body {
+html {
 	height:100%;
+	width:960px;
+	background-color: #777
+}
+
+body {
+	width: 960px;
 	background-color: #777
 }
 
@@ -25,7 +31,6 @@ nav {
 	font-size: 18px;
 	color: #777;
   	text-align: center;
-
 }
 
 .content-wrap {
@@ -58,21 +63,34 @@ section {
 	width: 60%;
 }
 
-
-aside {
-	width: 455px;
-	height: 300px;
-	margin: 0 auto 0 auto;
-  	background: #ebebeb;
-  	font-family: arial;
-	font-size: 18px;
-	color: #777;
-  	text-align: center;
+article {
+	background: #777;
+	width: 475px;
+    margin-left: 10px;
+    padding-bottom: 10px;
 
 }
 
-article {
+article h1 {
+	color: #ebebeb;
+	font-family: arial;
+}
 
+article p {
+	color: #777;
+	font-family: arial;
+}
+
+.small-div {
+	background: #ebebeb;
+	width: 90%;
+    margin: 0 auto 0 auto;
+
+}
+
+p .small-div {
+	color:#777;
+	margin-bottom: 5px;
 }
 
 .clear {
